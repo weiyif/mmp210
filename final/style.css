@@ -1,0 +1,34 @@
+var player;
+var speed=0.5;
+var jump=20;
+var jumping= false;
+var platfrom
+var obstacle
+functionsetup(){
+	createCanvas(720,360);
+
+	player=createSprite(100,100,40,40);
+    plartfrorm= createSperite(100,100,40,40
+)
+    platform=createSprite(width/2,height, width,20);
+    obstacle=createSprite(300<height,60,80);
+}
+
+
+}
+Function daw (){
+	background("back");
+    if (keyDown("space")&&!jumping){
+        palyer.velocity.y-=jumping
+	 if(keyDown("a"))
+	 	player.velocity.x-= speed;
+	 } else if( keydown("d")){
+	 	player.velocity.x +=speed;}
+
+	 }
+	 drawSprites();
+}
+body {background-color:pink;}
+
+
+

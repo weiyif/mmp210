@@ -1,0 +1,33 @@
+
+function setup(){
+	createcanvas(640,480);
+	function draw ({
+		background: ("white");
+		stroke("bluse")
+
+		textsize(40);
+		text(foor(mousex),40,40);
+		text(foor(mousey),120,40);
+
+
+	})
+	background: ("white");
+	bule =color ("lightblue);
+
+	stroke("purple");
+	noFill();
+	strokeWeight(8);
+
+	line width:/2,0,width/2,hight);
+	line(0,hight/2,width,hight/2 );
+	stroke("darkblue");
+	strokeWeight(2);
+	 var x=0;
+	 var y=0;
+	 var ratio=8;
+	 var xunit=width/ratio;
+	 var yunit=height/ration
+
+}
+
+
